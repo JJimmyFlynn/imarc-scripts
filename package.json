@@ -1,0 +1,17 @@
+{
+  "name": "imarc-scripts",
+  "version": "1.0.0",
+  "description": "A collection of scripts to help with common tasks on Imarc projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Flynn",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.3.3",
+    "slugify": "^1.4.5"
+  }
+}
