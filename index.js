@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { Command } = require('commander')
 const CreateSassComponent = require('./scripts/create-sass-component.js')
 require('dotenv').config()
