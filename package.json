@@ -1,8 +1,11 @@
 {
-  "name": "imarc-scripts",
+  "name": "imarc-project-scripts",
   "version": "1.0.0",
   "description": "A collection of scripts to help with common tasks on Imarc projects",
   "main": "index.js",
+  "bin": {
+    "imarc": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
