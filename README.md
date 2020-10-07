@@ -11,10 +11,10 @@ Project scripts must be installed as a global NPM module.
 Project scripts are invoked using the command `imarc <script-name>`. Currently, all scripts must be run from the
  root of the project.
  
- ## Commands
+ ## Scripts
  `create-sass-component`
  
- Creates a SASS component per Imarc's Fractal pattern library setup. The command will ask you for information on your
+ Creates a SASS component per Imarc's Fractal pattern library setup. The script will ask you for information on your
   component.
  
  You may choose to create an atom, molecule, or organism. You may optionally create a javascript file for the component.
