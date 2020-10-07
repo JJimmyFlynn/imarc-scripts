@@ -25,7 +25,7 @@ Project scripts are invoked using the command `imarc <script-name>`. Currently, 
     - component-name.scss
     - component-name.js (optional)
     
-N.B. The script will create the components in the appropriate atomic folder in `/resources/styles` by default. You
+N.B. The script will create components in the appropriate atomic folder in `/resources/styles` by default. You
  may override the base location of styles by using the `SASS_DIRECTORY` environment variable.
  
  e.g. `SASS_DIRECTORY=different-dir/sass`
