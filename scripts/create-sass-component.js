@@ -46,7 +46,12 @@ const command = () => {
         }
 
         fs.mkdirSync(componentPath)
-        fs.writeFile(`${componentPath}/${componentName}.scss`, '', (error) => {
+        fs.writeFile(`${componentPath}/${componentName}.scss`,
+            `/*
+            /* General/Mobile
+            /**********************************************************************/
+            `,
+            (error) => {
             if (error) throw error
         })
         fs.writeFile(`${componentPath}/${componentName}.twig`, '', (error) => {
