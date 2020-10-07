@@ -48,12 +48,12 @@ const command = () => {
         fs.mkdirSync(componentPath)
         fs.writeFile(`${componentPath}/${componentName}.scss`,
             `/*
-            /* General/Mobile
-            /**********************************************************************/
-            `,
+/* General/Mobile
+/**********************************************************************/`,
             (error) => {
             if (error) throw error
-        })
+            }
+        )
         fs.writeFile(`${componentPath}/${componentName}.twig`, '', (error) => {
             if (error) throw error
         })
