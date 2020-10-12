@@ -58,6 +58,14 @@ const command = () => {
       if (error) throw error
     })
 
+    fs.writeFile(`${componentPath}/${componentName}.config.json`, '', (error) => {
+      if (error) throw error
+    })
+
+    fs.writeFile(`${componentPath}/README.md`, '', (error) => {
+      if (error) throw error
+    })
+
     if (answers.createJs) {
       fs.writeFile(`${componentPath}/${componentName}.js`, '', (error) => {
         if (error) throw error
