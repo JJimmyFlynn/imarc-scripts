@@ -21,6 +21,10 @@ const command = () => {
         {
           name: 'Organism',
           value: 'organisms'
+        },
+        {
+          name: 'Utility',
+          value: 'utilities'
         }
       ]
     },
