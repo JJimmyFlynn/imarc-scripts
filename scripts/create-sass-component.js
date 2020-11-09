@@ -62,7 +62,7 @@ const command = () => {
       if (error) throw error
     })
 
-    fs.writeFile(`${componentPath}/${componentName}.config.json`, '', (error) => {
+    fs.writeFile(`${componentPath}/${componentName}.config.json`, '{}', (error) => {
       if (error) throw error
     })
 
